@@ -1,0 +1,255 @@
+/* header */
+.header {
+    background-image: url(../img/header/header-img.jpeg);
+}
+
+.header-grid {
+    padding-bottom: 150px;
+    text-align: center;
+}
+
+.header__icon {
+    padding: 20px;   
+    color: var(--white-color);
+    font-size: 2.5rem;
+}
+
+.header__icon i:hover {
+    cursor: pointer;
+}
+
+.header__logo {
+    margin: 108px 0;
+}
+
+.header__description {
+    padding-top: 40px;
+}
+
+.header__description,
+.header__description-author {
+    margin: auto;
+    width: 773px;
+    color: var(--white-color);
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3rem;
+}
+
+.header__description-author {
+    font-size: 2.2rem;
+    font-weight: 500;
+}
+
+/* body */
+.body {
+    background-color: var(--black-color);
+}
+
+/* advantages */
+.session-advantages {
+    color: var(--white-color);
+}
+
+.adv-grid {
+    padding: 60px 0;
+}
+
+.adv__img, .adv__tittle, .adv__item {
+    margin: 10px;
+    padding: 30px;
+}
+
+.adv__img, .adv__tittle {
+    min-height: 271px;
+    width: 36%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.adv__item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.adv__item-icon {
+    padding: 10px;
+    font-size: 4rem;
+}
+
+.adv__item-tittle {
+    margin-top: 20px;
+}
+
+.adv__item-description {
+    margin-top: 20px;
+
+}
+
+/* ideas */
+
+.ideas-grid {
+    padding: 60px 0;
+}
+
+.ideas__tittle-block {
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.ideas__tittle-block::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    margin-left: 102px;
+    background-color: #c0c0c0;
+    transform: rotate(45deg);
+}
+
+.ideas__tittle-block, .ideas__image {
+    padding: 21px;
+    flex: 1;
+}
+
+.ideas__tittle {
+    z-index: 1;
+}
+
+.ideas__image {
+    min-height: 611px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* img */
+.session-img {
+    display: flex;
+}
+
+.img-item {
+    flex: 1;
+    height: 518px;
+    background-size: cover;
+    background-position: 25%;
+}
+
+/* team */
+.team-grid {
+    padding: 60px 0;
+    max-width: 1170px;
+}
+
+.team-grid__col {
+    width: calc(100% / 3);
+}
+
+.team-border {
+    border: 15px solid transparent;
+}
+
+.team-grid__col-1 {
+    padding: 30px;
+}
+
+.team-grid__col-1-img {
+    margin-top: 60px;
+    width: 277px;
+    height: 384px;
+    background-size: cover;
+    background-position: center;
+}
+
+.team-grid__col-2 {
+    padding: 30px 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.team__description {
+    margin-top: 20px;
+}
+
+.team-grid__col-2-right-arrow-icon{
+    margin-top: 50px;
+    font-size: 5.5rem;
+    color: var(--white-color);
+}
+
+.team-grid__col-3 {
+
+}
+
+.team-grid__col-3-img {
+    /* height: 306px; */
+    background-size: cover;
+    background-position: center;
+}
+
+.team-grid__col-3-img img {
+    width: 100%;
+    height: 306px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.team-grid__col-3-img:nth-child(2) img {
+    object-position: center;
+}
+
+/* testimonials */
+.testimonials-grid {
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.testimonials__tittle {
+    padding-top: 40px;
+}
+
+.testimonials__description {
+    margin: 20px auto 0;
+    width: 470px;
+}
+
+.testimonials__description-author {
+    margin-top: 25px;
+}
+
+.testimonials__img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.testimonials__img::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 333px;
+    height: 333px;
+    background-color: #c0c0c0;
+    transform: rotate(45deg);
+}
+
+.testimonials__img img {
+    width: 365px;
+    height: 365px;
+    object-fit: cover;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* follow */

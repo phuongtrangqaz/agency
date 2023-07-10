@@ -1,0 +1,53 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.grid {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.session__tittle {
+    color: var(--white-color);
+    font-size: 4.8rem;
+    line-height: 5.5rem;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.session__text {
+    color: var(--white-color);
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+}
+
+.item__tittle {
+    color: var(--white-color);
+    font-size: 2rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
